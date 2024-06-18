@@ -1,0 +1,90 @@
+/* *************************** */
+/* BELOW 1344PX (smaller desktop) */
+/* *************************** */
+
+@media (max-width: 84em) {
+  .header-text-box {
+    max-width: 120rem;
+  }
+
+  .header-text {
+    font-size: 1rem;
+  }
+}
+
+/* *************************** */
+/* BELOW 1200PX (Landscape Tablet) */
+/* *************************** */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 89.75%;
+  }
+
+  header {
+    column-gap: 3rem;
+    margin-top: 2rem;
+  }
+}
+
+/* *************************** */
+/* BELOW 480PX (Phones) */
+/* *************************** */
+
+@media (max-width: 30em) {
+  html {
+    font-size: 80%;
+  }
+
+  .container {
+    padding: 0 0.5rem;
+  }
+
+  header,
+  section {
+    margin-bottom: 3rem; /* 48px */
+  }
+
+  h2 {
+    margin-bottom: 1.5rem; /* 24px */
+    font-size: 1.8rem; /* 28.8px */
+  }
+
+  header {
+    margin-top: 1.5rem; /* 24px */
+  }
+
+  h1 {
+    font-size: 2rem; /* 32px */
+  }
+
+  .header-text {
+    font-size: 0.9rem; /* 14.4px */
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem; /* 24px */
+    column-gap: 1.5rem; /* 24px */
+  }
+
+  .testimonial-section {
+    padding: 1rem; /* 16px */
+  }
+
+  .testimonial-box h2 {
+    font-size: 1.3rem; /* 20.8px */
+  }
+
+  .testimonial-text {
+    font-size: 1rem; /* 16px */
+  }
+
+  .chair-box {
+    padding: 1rem; /* 16px */
+  }
+
+  .chair-details {
+    margin-bottom: 1.5rem; /* 24px */
+  }
+}
